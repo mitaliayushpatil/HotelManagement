@@ -14,11 +14,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Hotel {
-	private int id;
+	private Integer id;
 	private String name;
 	private String addline1;
 	private String addline2;
-	private int pincode;
+	private Integer pincode;
 	private String branchcode;
 
 }

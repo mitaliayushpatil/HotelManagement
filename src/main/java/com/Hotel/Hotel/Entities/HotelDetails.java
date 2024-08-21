@@ -22,7 +22,7 @@ import lombok.Setter;
 public class HotelDetails {
 	@Id
 	@Column(name="id")
-	private int id;
+	private Integer id;
 	@Column(name="name")
 	private String name;
 	@Column(name="addline1")
@@ -30,7 +30,7 @@ public class HotelDetails {
 	@Column(name="addline2")
 	private String addline2;
 	@Column(name="pincode")
-	private int pincode;
+	private Integer pincode;
 	@Column(name="branchcode")
 	private String branchcode;
 }

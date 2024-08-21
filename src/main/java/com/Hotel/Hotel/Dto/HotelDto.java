@@ -1,7 +1,5 @@
 package com.Hotel.Hotel.Dto;
 
-import com.Hotel.Hotel.Core.Hotel;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,10 +14,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class HotelDto {
-	private int id;
+	private Integer id;
 	private String name;
 	private String addline1;
 	private String addline2;
-	private int pincode;
+	private Integer pincode;
 	private String branchcode;
 }
