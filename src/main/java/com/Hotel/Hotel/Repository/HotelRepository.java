@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.Hotel.Hotel.Entities.HotelDetails;
 
 @Repository
-public abstract class HotelRepository implements CrudRepository<HotelDetails, Integer>{
+public interface HotelRepository extends CrudRepository<HotelDetails, Integer>{
 
 }

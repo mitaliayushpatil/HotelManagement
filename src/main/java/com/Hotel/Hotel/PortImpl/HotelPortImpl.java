@@ -6,12 +6,13 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.Hotel.Hotel.Core.Hotel;
 import com.Hotel.Hotel.Mappers.HotelMappers;
 import com.Hotel.Hotel.Port.HotelPort;
 import com.Hotel.Hotel.Repository.HotelRepository;
-
+@Component
 public class HotelPortImpl implements HotelPort{
 
 	@Autowired
