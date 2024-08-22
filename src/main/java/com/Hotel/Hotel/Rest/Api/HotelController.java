@@ -14,7 +14,7 @@ import com.Hotel.Hotel.Service.HotelService;
 import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
-@RequestMapping("/Hotel")
+@RequestMapping("/api")
 public class HotelController {
 
 	@Autowired
@@ -29,7 +29,7 @@ public class HotelController {
 	)
 	@CommonResponses
 	@HotelsAnnotations
-	@GetMapping("/getallhotels")
+	@GetMapping("/Hotel")
 	public HotelsResponse getAllHotels()
 	{
 		return HotelsResponse.builder()
